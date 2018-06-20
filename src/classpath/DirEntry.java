@@ -1,8 +1,32 @@
 package classpath;
 
+import java.io.File;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+
 public class DirEntry extends Entry {
+
+    private String absDir;
+
+    public DirEntry(String path) {
+        try {
+            this.absDir = new File(path).getCanonicalPath();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     @Override
     public byte[] readClass(String className) {
-        return new byte[0];
+        try {
+            return Files.readAllBytes(Paths.get(this.absDir + File.separator + className));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return this.absDir;
     }
 }
