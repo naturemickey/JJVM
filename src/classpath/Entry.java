@@ -9,6 +9,9 @@ public abstract class Entry {
         if (path.contains(pathListSeparator)) {
             return new CompositeEntry(path);
         }
+        if (path.endsWith("*")) {
+            return new WildcardEntry(path);
+        }
         return null;
     }
 }
