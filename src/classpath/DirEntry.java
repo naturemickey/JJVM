@@ -1,8 +1,8 @@
 package classpath;
 
-public class DirEntry implements Entry {
+public class DirEntry extends Entry {
     @Override
-    public byte[] readClass(String path) {
+    public byte[] readClass(String className) {
         return new byte[0];
     }
 }

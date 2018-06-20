@@ -1,8 +1,8 @@
 package classpath;
 
-public class ZipEntry implements Entry {
+public class ZipEntry extends Entry {
     @Override
-    public byte[] readClass(String path) {
+    public byte[] readClass(String className) {
         return new byte[0];
     }
 }
