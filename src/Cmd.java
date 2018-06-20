@@ -2,6 +2,7 @@ public class Cmd {
     public boolean helpFlag;
     public boolean versionFlag;
     public String cpOption = "";
+    public String XjreOption;
     public String clazz;
     public String[] args = {};
 
@@ -15,8 +16,9 @@ public class Cmd {
             } else if (arg.equals("-version")) {
                 cmd.versionFlag = true;
             } else if (arg.equals("-cp") || arg.equals("-classpath")) {
-                arg = args[++i];
-                cmd.cpOption = arg;
+                cmd.cpOption = args[++i];
+            } else if (arg.equals("-Xjre")) {
+                cmd.XjreOption = args[++i];
             }
         }
 
