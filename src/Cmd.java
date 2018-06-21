@@ -1,7 +1,7 @@
 public class Cmd {
     public boolean helpFlag;
     public boolean versionFlag;
-    public String cpOption = "";
+    public String cpOption;
     public String XjreOption;
     public String clazz;
     public String[] args = {};
