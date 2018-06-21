@@ -14,6 +14,8 @@ public class Classpath {
 
     public static Classpath parse(String jreOption, String cpOption) {
         Classpath cp = new Classpath();
+        cp.parseBootAndExtClasspath(jreOption);
+        cp.parseUserClasspath(cpOption);
         return cp;
     }
 
@@ -22,7 +24,8 @@ public class Classpath {
         byte[] bytes = this.bootClasspath.readClass(className);
         if (bytes != null)
             return bytes;
-        bytes = this.extClasspath.readClass(className);
+        if (this.extClasspath != null)
+            bytes = this.extClasspath.readClass(className);
         if (bytes != null)
             return bytes;
         return this.userClasspath.readClass(className);
@@ -31,11 +34,13 @@ public class Classpath {
     private void parseBootAndExtClasspath(String jreOption) {
         String jreDir = getJreDir(jreOption);
 
-        String jreLibPath = FilePath.join(jreDir, "lib", "*");
-        this.bootClasspath = new WildcardEntry(jreLibPath);
+        String jreLibPath = FilePath.join(jreDir, "lib");
+        if (exists(jreLibPath))
+            this.bootClasspath = new WildcardEntry(FilePath.join(jreLibPath, "*"));
 
-        String jreExtPath = FilePath.join(jreDir, "lib", "ext", "*");
-        this.extClasspath = new WildcardEntry(jreExtPath);
+        String jreExtPath = FilePath.join(jreDir, "lib", "ext");
+        if (exists(jreExtPath))
+            this.extClasspath = new WildcardEntry(FilePath.join(jreExtPath, "*"));
     }
 
     private void parseUserClasspath(String cpOption) {
@@ -49,12 +54,13 @@ public class Classpath {
         if (jreOption != null && exists(jreOption)) {
             return jreOption;
         }
-        if (exists(".jre")) {
-            return ".jre";
+        if (exists("./jre")) {
+            return "./jre";
         }
-        String javaHome = System.getenv("JAVA_HOME");
+        String javaHome = System.getProperty("java.home");
         if (javaHome != null && javaHome.length() > 0) {
-            return FilePath.join(javaHome, "jre");
+            // return FilePath.join(javaHome, "jre");
+            return javaHome;
         }
         throw new RuntimeException("Can not find jre folder!");
     }
@@ -65,6 +71,6 @@ public class Classpath {
 
     @Override
     public String toString() {
-        return this.userClasspath.toString();
+        return this.userClasspath == null ? "" : this.userClasspath.toString();
     }
 }

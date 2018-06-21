@@ -1,5 +1,5 @@
-import java.io.File;
-import java.nio.file.Paths;
+import classpath.Classpath;
+
 import java.util.Arrays;
 
 public class Main {
@@ -17,7 +17,13 @@ public class Main {
     }
 
     private static void startJVM(Cmd cmd) {
-        System.out.println("classpath:" + cmd.cpOption + " class:" + cmd.clazz + " args:" + Arrays.asList(cmd.args));
+        Classpath cp = Classpath.parse(cmd.XjreOption, cmd.cpOption);
+        System.out.printf("classpath:%s class:%s args:%s\n", cp, cmd.clazz, Arrays.asList(cmd.args));
+
+        String className = cmd.clazz.replace(".", "/");
+        byte[] classData = cp.readClass(className);
+
+        System.out.printf("class data:%s\n",Arrays.asList(classData));
     }
 
 }

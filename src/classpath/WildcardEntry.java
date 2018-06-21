@@ -14,7 +14,7 @@ public class WildcardEntry extends Entry {
     public WildcardEntry(String path) {
         StringBuilder sb = new StringBuilder(path);
         sb.deleteCharAt(sb.length() - 1);
-        path = sb.toString();// remove *
+        path = sb.toString(); // remove *
         File baseFile = new File(path);
         for (File cf : baseFile.listFiles()) {
             if (cf.isFile() && (cf.getName().endsWith(".jar") || cf.getName().endsWith(".JAR"))) {
