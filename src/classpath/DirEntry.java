@@ -1,5 +1,7 @@
 package classpath;
 
+import util.FilePath;
+
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -19,7 +21,7 @@ public class DirEntry extends Entry {
     @Override
     public byte[] readClass(String className) {
         try {
-            return Files.readAllBytes(Paths.get(this.absDir + File.separator + className));
+            return Files.readAllBytes(Paths.get(FilePath.join(this.absDir, className)));
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
