@@ -1,4 +1,5 @@
 import classpath.Classpath;
+import util.Strings;
 
 import java.util.Arrays;
 
@@ -23,7 +24,7 @@ public class Main {
         String className = cmd.clazz.replace(".", "/");
         byte[] classData = cp.readClass(className);
 
-        System.out.printf("class data:%s\n",Arrays.asList(classData));
+        System.out.printf("class data:%s\n", Strings.join(classData));
     }
 
 }
