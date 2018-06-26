@@ -3,7 +3,7 @@ package util;
 public class Strings {
 
     public static String join(byte[] data) {
-        StringBuilder sb = new StringBuilder();
+        var sb = new StringBuilder();
         sb.append('[');
         for (byte d : data) {
             sb.append(d).append(' ').append(',');

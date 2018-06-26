@@ -7,10 +7,10 @@ public class Cmd {
     public String[] args = {};
 
     public static Cmd parseCmd(String[] args) {
-        Cmd cmd = new Cmd();
+        var cmd = new Cmd();
 
         for (int i = 0; i < args.length; ++i) {
-            String arg = args[i];
+            var arg = args[i];
             if (arg.equals("-help") || arg.equals("-?")) {
                 cmd.helpFlag = true;
             } else if (arg.equals("-version")) {

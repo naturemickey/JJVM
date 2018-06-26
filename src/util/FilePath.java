@@ -5,7 +5,7 @@ import java.io.File;
 public class FilePath {
 
     public static String join (String... paths) {
-        StringBuilder sb = new StringBuilder();
+        var sb = new StringBuilder();
         for (String path: paths) {
             sb.append(path).append(File.separator);
         }

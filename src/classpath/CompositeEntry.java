@@ -28,7 +28,7 @@ public class CompositeEntry extends Entry {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        var sb = new StringBuilder();
         for (Entry entry : compositeEntry) {
             sb.append(entry.toString()).append(pathListSeparator);
         }

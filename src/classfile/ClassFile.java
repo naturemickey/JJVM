@@ -14,16 +14,29 @@ public class ClassFile {
     private AttributeInfo[] attributes;
 
     public static ClassFile parser(byte[] classData) {
-        // TODO
-        return null;
+        var cr = new ClassReader(classData);
+        var cf = new ClassFile();
+        cf.read(cr);
+        return cf;
     }
 
     private void read(ClassReader reader) {
-        // TODO
+        this.readAndCheckMagic(reader);
+        this.readAndCheckVersion(reader);
+        this.constantPool = ConstantPool.readConstantPool(reader);
+        this.accessFlags = reader.readUint16();
+        this.thisClass = reader.readUint16();
+        this.superClass = reader.readUint16();
+        this.interfaces = reader.readUint16s();
+        this.fields = MemberInfo.readMembers(reader, this.constantPool);
+        this.methods = MemberInfo.readMembers(reader, this.constantPool);
+        this.attributes = AttributeInfo.readAttributes(reader, this.constantPool);
     }
 
     private void readAndCheckMagic(ClassReader reader) {
-        // TODO
+        if (reader.readUint32() != 0xCAFEBABE) {
+            throw new ClassFormatError();
+        }
     }
 
     private void readAndCheckVersion(ClassReader reader) {

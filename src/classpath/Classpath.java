@@ -13,7 +13,7 @@ public class Classpath {
     }
 
     public static Classpath parse(String jreOption, String cpOption) {
-        Classpath cp = new Classpath();
+        var cp = new Classpath();
         cp.parseBootAndExtClasspath(jreOption);
         cp.parseUserClasspath(cpOption);
         return cp;

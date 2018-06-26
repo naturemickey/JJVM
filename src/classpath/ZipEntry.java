@@ -19,10 +19,10 @@ public class ZipEntry extends Entry {
     @Override
     public byte[] readClass(String className) {
         try {
-            try (ZipFile zf = new ZipFile(this.absDir)) {
-                java.util.zip.ZipEntry ze = zf.getEntry(className);
+            try (var zf = new ZipFile(this.absDir)) {
+                var ze = zf.getEntry(className);
                 if (ze != null) {
-                    try (InputStream is = zf.getInputStream(ze)) {
+                    try (var is = zf.getInputStream(ze)) {
                         return is.readAllBytes();
                     }
                 }

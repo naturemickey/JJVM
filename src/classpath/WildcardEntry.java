@@ -12,10 +12,10 @@ public class WildcardEntry extends Entry {
     private List<Entry> compositeEntry = new ArrayList<>();
 
     public WildcardEntry(String path) {
-        StringBuilder sb = new StringBuilder(path);
+        var sb = new StringBuilder(path);
         sb.deleteCharAt(sb.length() - 1);
         path = sb.toString(); // remove *
-        File baseFile = new File(path);
+        var baseFile = new File(path);
         for (File cf : baseFile.listFiles()) {
             if (cf.isFile() && (cf.getName().endsWith(".jar") || cf.getName().endsWith(".JAR"))) {
                 compositeEntry.add(new ZipEntry(cf.getPath()));
@@ -36,7 +36,7 @@ public class WildcardEntry extends Entry {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        var sb = new StringBuilder();
         for (Entry entry : compositeEntry) {
             sb.append(entry.toString()).append(pathListSeparator);
         }
