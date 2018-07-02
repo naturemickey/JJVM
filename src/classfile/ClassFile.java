@@ -35,12 +35,27 @@ public class ClassFile {
 
     private void readAndCheckMagic(ClassReader reader) {
         if (reader.readUint32() != 0xCAFEBABE) {
-            throw new ClassFormatError();
+            throw new ClassFormatError("magic !");
         }
     }
 
     private void readAndCheckVersion(ClassReader reader) {
-        // TODO
+        this.minorVersion = reader.readUint16();
+        this.majorVersion = reader.readUint16();
+        switch (this.majorVersion) {
+            case 45:
+                return;
+            case 46:
+            case 47:
+            case 48:
+            case 49:
+            case 50:
+            case 51:
+            case 52:
+                if (this.minorVersion == 0)
+                    return;
+        }
+        throw new UnsupportedClassVersionError();
     }
 
     public char minorVersion() {
