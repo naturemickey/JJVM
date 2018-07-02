@@ -32,13 +32,11 @@ public class MemberInfo {
     }
 
     public String name() {
-        // TODO
-        return null;
+        return this.cp.getUtf8(this.nameIndex);
     }
 
     public String descriptor() {
-        // TODO
-        return null;
+        return this.cp.getUtf8(this.descriptorIndex);
     }
 
 }
