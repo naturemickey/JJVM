@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change beforePath="$PROJECT_DIR$/src/classfile/ClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ClassFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/MemberInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/MemberInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassFile.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClassFile.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classfile/ClassFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+            <state relative-caret-position="418">
+              <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding>
                 <element signature="e#1606#1607#0" expanded="true" />
                 <element signature="e#1641#1642#0" expanded="true" />
@@ -46,11 +46,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberInfo.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MemberInfo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classfile/MemberInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+            <state relative-caret-position="390">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+              <folding>
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#514#515#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -160,7 +164,6 @@
         <option value="$PROJECT_DIR$/src/classpath/Entry.java" />
         <option value="$PROJECT_DIR$/src/classpath/DirEntry.java" />
         <option value="$PROJECT_DIR$/src/classfile/ClassReader.java" />
-        <option value="$PROJECT_DIR$/src/classfile/MemberInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/AttributeInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/ConstantPool.java" />
         <option value="$PROJECT_DIR$/src/classpath/Classpath.java" />
@@ -172,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/Cmd.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/classfile/ClassFile.java" />
+        <option value="$PROJECT_DIR$/src/classfile/MemberInfo.java" />
       </list>
     </option>
   </component>
@@ -486,6 +490,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/AttributeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/ClassReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="497">
@@ -678,13 +679,6 @@
             <element signature="e#207#208#0" expanded="true" />
             <element signature="e#234#235#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/MemberInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -718,8 +712,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/ClassFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+        <state relative-caret-position="418">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
           <folding>
             <element signature="e#1606#1607#0" expanded="true" />
             <element signature="e#1641#1642#0" expanded="true" />
@@ -733,6 +727,24 @@
             <element signature="e#1919#1920#0" expanded="true" />
             <element signature="e#1956#1957#0" expanded="true" />
             <element signature="e#1986#1987#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/AttributeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/MemberInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#514#515#0" expanded="true" />
           </folding>
         </state>
       </provider>
