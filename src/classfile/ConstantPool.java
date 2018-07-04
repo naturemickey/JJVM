@@ -26,21 +26,23 @@ public class ConstantPool {
     }
 
     public ConstantInfo getConstantInfo(char index) {
-        // TODO
-        return null;
+        return this.constants[index];
     }
 
     public Tuple2<String, String> getNameAndType(char index) {
-        // TODO
-        return null;
+        var ntInfo = (ConstantNameAndTypeInfo) this.constants[index];
+        var name = this.getUtf8(ntInfo.nameIndex);
+        var type = this.getUtf8(ntInfo.descriptorIndex);
+        return Tuple2.create(name, type);
     }
 
     public String getClassName(char index) {
-        return null;
+        var classInfo = (ConstantClassInfo) this.constants[index];
+        return this.getUtf8(classInfo.nameIndex);
     }
 
     public String getUtf8(char index) {
-        // TODO
-        return null;
+        var utf8Info = (ConstantUtf8Info) this.constants[index];
+        return utf8Info.str;
     }
 }
