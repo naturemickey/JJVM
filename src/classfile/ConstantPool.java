@@ -29,11 +29,8 @@ public class ConstantPool {
         return this.constants[index];
     }
 
-    public Tuple2<String, String> getNameAndType(char index) {
-        var ntInfo = (ConstantNameAndTypeInfo) this.constants[index];
-        var name = ntInfo.Name();
-        var type = ntInfo.Descriptor();
-        return Tuple2.create(name, type);
+    public ConstantNameAndTypeInfo getNameAndType(char index) {
+        return (ConstantNameAndTypeInfo) this.constants[index];
     }
 
     public String getClassName(char index) {
