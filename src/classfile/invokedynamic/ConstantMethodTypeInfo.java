@@ -5,7 +5,7 @@ import classfile.ConstantInfo;
 
 public class ConstantMethodTypeInfo extends ConstantInfo {
 
-    public char descriptorIndex;
+    private char descriptorIndex;
 
     @Override
     public void readInfo(ClassReader reader) {

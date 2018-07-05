@@ -5,7 +5,7 @@ import classfile.ConstantInfo;
 
 public class ConstantDoubleInfo extends ConstantInfo {
 
-    public double val;
+    private double val;
 
     @Override
     public void readInfo(ClassReader reader) {

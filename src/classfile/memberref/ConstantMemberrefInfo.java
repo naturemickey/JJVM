@@ -5,9 +5,9 @@ import classfile.ConstantInfo;
 import classfile.ConstantPool;
 
 public class ConstantMemberrefInfo extends ConstantInfo {
-    public ConstantPool cp;
-    public char classIndex;
-    public char nameAndTypeIndex;
+    private ConstantPool cp;
+    private char classIndex;
+    private char nameAndTypeIndex;
 
     public ConstantMemberrefInfo(ConstantPool cp) {
         this.cp = cp;

@@ -5,8 +5,8 @@ import classfile.ConstantInfo;
 
 public class ConstantInvokeDynamicInfo extends ConstantInfo {
 
-    public char bootstrapMethodAttrIndex;
-    public char nameAndTypeIndex;
+    private char bootstrapMethodAttrIndex;
+    private char nameAndTypeIndex;
 
     @Override
     public void readInfo(ClassReader reader) {

@@ -21,4 +21,8 @@ public class ConstantUtf8Info extends ConstantInfo {
             throw new RuntimeException(e);
         }
     }
+
+    public String String() {
+        return str;
+    }
 }

@@ -60,7 +60,7 @@ public abstract class ConstantInfo {
             case CONSTANT_InterfaceMethodref:
                 return new ConstantInterfaceMethodrefInfo(cp);
             case CONSTANT_NameAndType:
-                return new ConstantNameAndTypeInfo();
+                return new ConstantNameAndTypeInfo(cp);
             case CONSTANT_MethodType:
                 return new ConstantMethodTypeInfo();
             case CONSTANT_MethodHandle:

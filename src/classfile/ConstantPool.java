@@ -31,18 +31,18 @@ public class ConstantPool {
 
     public Tuple2<String, String> getNameAndType(char index) {
         var ntInfo = (ConstantNameAndTypeInfo) this.constants[index];
-        var name = this.getUtf8(ntInfo.nameIndex);
-        var type = this.getUtf8(ntInfo.descriptorIndex);
+        var name = ntInfo.Name();
+        var type = ntInfo.Descriptor();
         return Tuple2.create(name, type);
     }
 
     public String getClassName(char index) {
         var classInfo = (ConstantClassInfo) this.constants[index];
-        return this.getUtf8(classInfo.nameIndex);
+        return classInfo.Name();
     }
 
     public String getUtf8(char index) {
         var utf8Info = (ConstantUtf8Info) this.constants[index];
-        return utf8Info.str;
+        return utf8Info.String();
     }
 }

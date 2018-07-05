@@ -4,7 +4,7 @@ import classfile.ClassReader;
 import classfile.ConstantInfo;
 
 public class ConstantIntegerInfo extends ConstantInfo {
-    public int val;
+    private int val;
 
     @Override
     public void readInfo(ClassReader reader) {
