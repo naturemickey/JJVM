@@ -1,15 +1,16 @@
-package classfile;
+package classfile.cp;
 
-import classfile.invokedynamic.ConstantInvokeDynamicInfo;
-import classfile.invokedynamic.ConstantMethodHandleInfo;
-import classfile.invokedynamic.ConstantMethodTypeInfo;
-import classfile.memberref.ConstantFieldrefInfo;
-import classfile.memberref.ConstantInterfaceMethodrefInfo;
-import classfile.memberref.ConstantMemberrefInfo;
-import classfile.numeric.ConstantDoubleInfo;
-import classfile.numeric.ConstantFloatInfo;
-import classfile.numeric.ConstantIntegerInfo;
-import classfile.numeric.ConstantLongInfo;
+import classfile.ClassReader;
+import classfile.cp.invokedynamic.ConstantInvokeDynamicInfo;
+import classfile.cp.invokedynamic.ConstantMethodHandleInfo;
+import classfile.cp.invokedynamic.ConstantMethodTypeInfo;
+import classfile.cp.memberref.ConstantFieldrefInfo;
+import classfile.cp.memberref.ConstantInterfaceMethodrefInfo;
+import classfile.cp.memberref.ConstantMemberrefInfo;
+import classfile.cp.numeric.ConstantDoubleInfo;
+import classfile.cp.numeric.ConstantFloatInfo;
+import classfile.cp.numeric.ConstantIntegerInfo;
+import classfile.cp.numeric.ConstantLongInfo;
 
 public abstract class ConstantInfo {
 

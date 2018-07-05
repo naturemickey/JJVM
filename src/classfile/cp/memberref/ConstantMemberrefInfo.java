@@ -1,9 +1,9 @@
-package classfile.memberref;
+package classfile.cp.memberref;
 
 import classfile.ClassReader;
-import classfile.ConstantInfo;
-import classfile.ConstantNameAndTypeInfo;
-import classfile.ConstantPool;
+import classfile.cp.ConstantInfo;
+import classfile.cp.ConstantNameAndTypeInfo;
+import classfile.cp.ConstantPool;
 
 public class ConstantMemberrefInfo extends ConstantInfo {
     private ConstantPool cp;

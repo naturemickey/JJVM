@@ -1,5 +1,7 @@
 package classfile;
 
+import classfile.cp.ConstantPool;
+
 public class MemberInfo {
 
     private ConstantPool cp;

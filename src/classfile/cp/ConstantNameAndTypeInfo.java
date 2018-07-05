@@ -1,4 +1,6 @@
-package classfile;
+package classfile.cp;
+
+import classfile.ClassReader;
 
 public class ConstantNameAndTypeInfo extends ConstantInfo {
     private ConstantPool cp;

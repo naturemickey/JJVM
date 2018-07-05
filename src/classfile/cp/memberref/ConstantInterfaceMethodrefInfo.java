@@ -1,6 +1,6 @@
-package classfile.memberref;
+package classfile.cp.memberref;
 
-import classfile.ConstantPool;
+import classfile.cp.ConstantPool;
 
 public class ConstantInterfaceMethodrefInfo extends ConstantMemberrefInfo {
 

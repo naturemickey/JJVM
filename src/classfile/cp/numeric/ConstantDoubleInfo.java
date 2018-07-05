@@ -1,7 +1,7 @@
-package classfile.numeric;
+package classfile.cp.numeric;
 
 import classfile.ClassReader;
-import classfile.ConstantInfo;
+import classfile.cp.ConstantInfo;
 
 public class ConstantDoubleInfo extends ConstantInfo {
 

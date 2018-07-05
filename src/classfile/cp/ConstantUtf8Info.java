@@ -1,9 +1,9 @@
-package classfile;
+package classfile.cp;
+
+import classfile.ClassReader;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
-import java.nio.charset.Charset;
-import java.nio.charset.CharsetDecoder;
 
 public class ConstantUtf8Info extends ConstantInfo {
     private String str;

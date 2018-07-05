@@ -1,7 +1,7 @@
-package classfile.invokedynamic;
+package classfile.cp.invokedynamic;
 
 import classfile.ClassReader;
-import classfile.ConstantInfo;
+import classfile.cp.ConstantInfo;
 
 public class ConstantMethodHandleInfo extends ConstantInfo {
     private byte referenceKind;

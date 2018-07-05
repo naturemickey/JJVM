@@ -1,8 +1,8 @@
-package classfile;
+package classfile.cp;
 
-import classfile.numeric.ConstantDoubleInfo;
-import classfile.numeric.ConstantLongInfo;
-import util.Tuple2;
+import classfile.ClassReader;
+import classfile.cp.numeric.ConstantDoubleInfo;
+import classfile.cp.numeric.ConstantLongInfo;
 
 public class ConstantPool {
 

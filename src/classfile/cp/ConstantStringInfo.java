@@ -1,4 +1,6 @@
-package classfile;
+package classfile.cp;
+
+import classfile.ClassReader;
 
 public class ConstantStringInfo extends ConstantInfo {
 
