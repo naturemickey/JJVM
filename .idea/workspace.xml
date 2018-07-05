@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change afterPath="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classfile/ConstantNameAndTypeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classfile/ConstantStringInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantInvokeDynamicInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodHandleInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodTypeInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classfile/memberref/ConstantFieldrefInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classfile/memberref/ConstantInterfaceMethodrefInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classfile/memberref/ConstantMemberrefInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classfile/ConstantInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ConstantInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ConstantPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantDoubleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/numeric/ConstantDoubleInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantFloatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/numeric/ConstantFloatInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantLongInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/numeric/ConstantLongInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,30 +27,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ConstantPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/classfile/ConstantPool.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="670">
-              <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-                <element signature="e#206#207#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConstantClassInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classfile/ConstantClassInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
               <folding>
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
                 <element signature="e#165#166#0" expanded="true" />
                 <element signature="e#192#193#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classfile/ConstantInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,47 +67,101 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantIntegerInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java">
+      <file leaf-file-name="ConstantMemberrefInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classfile/memberref/ConstantMemberrefInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantFloatInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantFloatInfo.java">
+      <file leaf-file-name="ConstantMethodHandleInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodHandleInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantLongInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantLongInfo.java">
+      <file leaf-file-name="ConstantMethodTypeInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodTypeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantDoubleInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantDoubleInfo.java">
+      <file leaf-file-name="ConstantInvokeDynamicInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classfile/invokedynamic/ConstantInvokeDynamicInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/ConstantInfo.java">
+      <file leaf-file-name="ConstantFieldrefInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classfile/memberref/ConstantFieldrefInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#155#156#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantInterfaceMethodrefInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classfile/memberref/ConstantInterfaceMethodrefInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <folding>
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantStringInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classfile/ConstantStringInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="34" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="34" />
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
+              <folding>
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -140,11 +200,22 @@
         <option value="$PROJECT_DIR$/src/classfile/ClassFile.java" />
         <option value="$PROJECT_DIR$/src/classfile/MemberInfo.java" />
         <option value="$PROJECT_DIR$/src/util/Tuple2.java" />
-        <option value="$PROJECT_DIR$/src/classfile/ConstantInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/ConstantNameAndTypeInfo.java" />
-        <option value="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java" />
         <option value="$PROJECT_DIR$/src/classfile/ConstantPool.java" />
+        <option value="$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/numeric/ConstantFloatInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/numeric/ConstantDoubleInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/numeric/ConstantLongInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/ConstantStringInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/ConstantMemberrefInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/ConstantFieldrefInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/ConstantInterfaceMethodrefInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodHandleInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodTypeInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantInvokeDynamicInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/ConstantInfo.java" />
       </list>
     </option>
   </component>
@@ -177,6 +248,20 @@
               <item name="JJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="classfile" type="462c0819:PsiDirectoryNode" />
+              <item name="invokedynamic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="classfile" type="462c0819:PsiDirectoryNode" />
+              <item name="numeric" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
@@ -736,38 +821,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        <state relative-caret-position="45">
+          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#189#190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantFloatInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantDoubleInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantLongInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="29" />
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantStringInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="34" />
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="31" />
+          <folding>
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -776,6 +912,8 @@
         <state relative-caret-position="30">
           <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
           <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
             <element signature="e#165#166#0" expanded="true" />
             <element signature="e#192#193#0" expanded="true" />
           </folding>
@@ -793,27 +931,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java">
+    <entry file="file://$PROJECT_DIR$/src/classfile/memberref/ConstantFieldrefInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding>
-            <element signature="e#162#163#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantPool.java">
+    <entry file="file://$PROJECT_DIR$/src/classfile/memberref/ConstantInterfaceMethodrefInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="670">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/memberref/ConstantMemberrefInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodHandleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodTypeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/invokedynamic/ConstantInvokeDynamicInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

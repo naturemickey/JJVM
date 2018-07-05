@@ -1,4 +1,13 @@
 package classfile.numeric;
 
-public class ConstantDoubleInfo {
+import classfile.ClassReader;
+import classfile.ConstantInfo;
+
+public class ConstantDoubleInfo extends ConstantInfo<ConstantDoubleInfo> {
+    @Override
+    public ConstantDoubleInfo readInfo(ClassReader reader) {
+        return null;
+    }
+
+    public double float64;
 }
