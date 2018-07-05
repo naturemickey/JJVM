@@ -9,5 +9,7 @@ public class ConstantMethodHandleInfo extends ConstantInfo {
 
     @Override
     public void readInfo(ClassReader reader) {
+        this.referenceKind = reader.readUint8();
+        this.referenceIndex = reader.readUint16();
     }
 }

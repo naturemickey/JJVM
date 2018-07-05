@@ -9,5 +9,6 @@ public class ConstantMethodTypeInfo extends ConstantInfo {
 
     @Override
     public void readInfo(ClassReader reader) {
+        this.descriptorIndex = reader.readUint16();
     }
 }
