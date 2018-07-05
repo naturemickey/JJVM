@@ -3,12 +3,11 @@ package classfile.invokedynamic;
 import classfile.ClassReader;
 import classfile.ConstantInfo;
 
-public class ConstantMethodHandleInfo extends ConstantInfo<ConstantMethodHandleInfo> {
+public class ConstantMethodHandleInfo extends ConstantInfo {
     public byte referenceKind;
     public char referenceIndex;
 
     @Override
-    public ConstantMethodHandleInfo readInfo(ClassReader reader) {
-        return null;
+    public void readInfo(ClassReader reader) {
     }
 }

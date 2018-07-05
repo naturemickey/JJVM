@@ -3,11 +3,13 @@ package classfile.numeric;
 import classfile.ClassReader;
 import classfile.ConstantInfo;
 
-public class ConstantDoubleInfo extends ConstantInfo<ConstantDoubleInfo> {
+public class ConstantDoubleInfo extends ConstantInfo {
+
+    public double val;
+
     @Override
-    public ConstantDoubleInfo readInfo(ClassReader reader) {
-        return null;
+    public void readInfo(ClassReader reader) {
+        this.val = Double.longBitsToDouble(reader.readUint64());
     }
 
-    public double float64;
 }

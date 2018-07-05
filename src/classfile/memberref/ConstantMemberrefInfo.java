@@ -4,7 +4,7 @@ import classfile.ClassReader;
 import classfile.ConstantInfo;
 import classfile.ConstantPool;
 
-public class ConstantMemberrefInfo extends ConstantInfo<ConstantMemberrefInfo> {
+public class ConstantMemberrefInfo extends ConstantInfo {
     public ConstantPool cp;
     public char classIndex;
     public char nameAndTypeIndex;
@@ -14,7 +14,6 @@ public class ConstantMemberrefInfo extends ConstantInfo<ConstantMemberrefInfo> {
     }
 
     @Override
-    public ConstantMemberrefInfo readInfo(ClassReader reader) {
-        return null;
+    public void readInfo(ClassReader reader) {
     }
 }

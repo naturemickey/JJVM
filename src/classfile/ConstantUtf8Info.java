@@ -1,9 +1,9 @@
 package classfile;
 
-public class ConstantUtf8Info extends ConstantInfo<ConstantUtf8Info> {
+public class ConstantUtf8Info extends ConstantInfo {
     public String str;
+
     @Override
-    public ConstantUtf8Info readInfo(ClassReader reader) {
-        return null;
+    public void readInfo(ClassReader reader) {
     }
 }

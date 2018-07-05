@@ -11,7 +11,7 @@ import classfile.numeric.ConstantFloatInfo;
 import classfile.numeric.ConstantIntegerInfo;
 import classfile.numeric.ConstantLongInfo;
 
-public abstract class ConstantInfo<T extends ConstantInfo> {
+public abstract class ConstantInfo {
 
     public static final byte CONSTANT_Utf8 = 1;
     public static final byte CONSTANT_Integer = 3;
@@ -28,7 +28,7 @@ public abstract class ConstantInfo<T extends ConstantInfo> {
     public static final byte CONSTANT_MethodType = 16;
     public static final byte CONSTANT_InvokeDynamic = 18;
 
-    public abstract T readInfo(ClassReader reader);
+    public abstract void readInfo(ClassReader reader);
 
     public static ConstantInfo readConstantInfo(ClassReader reader, ConstantPool cp) {
         var tag = reader.readUint8();

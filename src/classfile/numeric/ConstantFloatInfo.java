@@ -3,11 +3,12 @@ package classfile.numeric;
 import classfile.ClassReader;
 import classfile.ConstantInfo;
 
-public class ConstantFloatInfo extends ConstantInfo<ConstantFloatInfo> {
-    public float float32;
+public class ConstantFloatInfo extends ConstantInfo {
+    public float val;
 
     @Override
-    public ConstantFloatInfo readInfo(ClassReader reader) {
-        return null;
+    public void readInfo(ClassReader reader) {
+        var bytes = reader.readUint32();
+        this.val = Float.intBitsToFloat(bytes);
     }
 }

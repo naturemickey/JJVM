@@ -1,6 +1,6 @@
 package classfile;
 
-public class ConstantClassInfo extends ConstantInfo<ConstantClassInfo> {
+public class ConstantClassInfo extends ConstantInfo {
     public ConstantPool cp;
     public char nameIndex;
 
@@ -9,7 +9,6 @@ public class ConstantClassInfo extends ConstantInfo<ConstantClassInfo> {
     }
 
     @Override
-    public ConstantClassInfo readInfo(ClassReader reader) {
-        return null;
+    public void readInfo(ClassReader reader) {
     }
 }
