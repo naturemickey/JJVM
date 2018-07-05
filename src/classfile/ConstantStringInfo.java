@@ -2,8 +2,8 @@ package classfile;
 
 public class ConstantStringInfo extends ConstantInfo {
 
-    public ConstantPool cp;
-    public char stringIndex;
+    private ConstantPool cp;
+    private char stringIndex;
 
     public ConstantStringInfo(ConstantPool cp) {
         this.cp = cp;
@@ -11,5 +11,10 @@ public class ConstantStringInfo extends ConstantInfo {
 
     @Override
     public void readInfo(ClassReader reader) {
+        this.stringIndex = reader.readUint16();
+    }
+
+    public String String() {
+        return this.cp.getUtf8(this.stringIndex);
     }
 }
