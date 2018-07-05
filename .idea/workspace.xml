@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantStringInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ConstantStringInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConstantStringInfo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ConstantStringInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classfile/ConstantStringInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
@@ -76,6 +75,21 @@
                 <element signature="e#273#274#0" expanded="true" />
                 <element signature="e#292#293#0" expanded="true" />
                 <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#378#379#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConstantClassInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classfile/ConstantClassInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+              <folding>
+                <element signature="e#266#267#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
                 <element signature="e#378#379#0" expanded="true" />
               </folding>
             </state>
@@ -162,7 +176,6 @@
         <option value="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodHandleInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodTypeInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/memberref/ConstantMemberrefInfo.java" />
-        <option value="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/ConstantNameAndTypeInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/numeric/ConstantFloatInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java" />
@@ -170,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/classfile/numeric/ConstantDoubleInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java" />
         <option value="$PROJECT_DIR$/src/classfile/ConstantStringInfo.java" />
+        <option value="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" />
       </list>
     </option>
   </component>
@@ -866,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantClassInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/ConstantNameAndTypeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -972,6 +979,19 @@
             <element signature="e#273#274#0" expanded="true" />
             <element signature="e#292#293#0" expanded="true" />
             <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#378#379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/ConstantClassInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
             <element signature="e#378#379#0" expanded="true" />
           </folding>
         </state>
