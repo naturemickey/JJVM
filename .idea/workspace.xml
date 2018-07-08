@@ -2,25 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change beforePath="$PROJECT_DIR$/src/classfile/AttributeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/AttributeInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classfile/AttributeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/attr/AttributeInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classfile/ClassFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/ClassFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantClassInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/ConstantClassInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/ConstantInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantNameAndTypeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/ConstantNameAndTypeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/ConstantPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantStringInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/ConstantStringInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/ConstantUtf8Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/ConstantUtf8Info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/classfile/MemberInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/MemberInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantInvokeDynamicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/invokedynamic/ConstantInvokeDynamicInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodHandleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/invokedynamic/ConstantMethodHandleInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodTypeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/invokedynamic/ConstantMethodTypeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/memberref/ConstantFieldrefInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/memberref/ConstantFieldrefInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/memberref/ConstantInterfaceMethodrefInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/memberref/ConstantInterfaceMethodrefInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/memberref/ConstantMemberrefInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/memberref/ConstantMemberrefInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantDoubleInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/numeric/ConstantDoubleInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantFloatInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/numeric/ConstantFloatInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantIntegerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/numeric/ConstantIntegerInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/classfile/numeric/ConstantLongInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/classfile/cp/numeric/ConstantLongInfo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,16 +21,19 @@
         <entry file="file://$PROJECT_DIR$/src/classfile/ClassFile.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="418">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AttributeInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/AttributeInfo.java">
+      <file leaf-file-name="AttributeInfo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/classfile/attr/AttributeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,12 +87,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberInfo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MemberInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/classfile/MemberInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="435">
+              <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#1019#1020#0" expanded="true" />
                 <element signature="e#1073#1074#0" expanded="true" />
               </folding>
@@ -203,6 +192,7 @@
         <option value="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantMethodTypeInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/invokedynamic/ConstantInvokeDynamicInfo.java" />
         <option value="$PROJECT_DIR$/src/classfile/ClassFile.java" />
+        <option value="$PROJECT_DIR$/src/classfile/attr/AttributeInfo.java" />
       </list>
     </option>
   </component>
@@ -241,7 +231,7 @@
               <item name="JJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="classfile" type="462c0819:PsiDirectoryNode" />
-              <item name="cp" type="462c0819:PsiDirectoryNode" />
+              <item name="attr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
@@ -499,10 +489,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/AttributeInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/classfile/attr/AttributeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -511,6 +504,7 @@
         <state relative-caret-position="60">
           <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1073#1074#0" expanded="true" />
           </folding>
@@ -902,20 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/ClassFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/classfile/AttributeInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/ClassReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -933,13 +913,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/ClassFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/classfile/MemberInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="435">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#1019#1020#0" expanded="true" />
             <element signature="e#1073#1074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/classfile/attr/AttributeInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

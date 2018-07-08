@@ -1,5 +1,6 @@
 package classfile;
 
+import classfile.attr.AttributeInfo;
 import classfile.cp.ConstantPool;
 
 public class ClassFile {
