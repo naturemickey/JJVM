@@ -1,6 +1,7 @@
-package classfile.attr;
+package classfile.attr.code;
 
 import classfile.ClassReader;
+import classfile.attr.AttributeInfo;
 
 public class CodeAttribute extends AttributeInfo {
     @Override
