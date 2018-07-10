@@ -17,8 +17,12 @@ public abstract class AttributeInfo {
     }
 
     public static AttributeInfo readAttribute(ClassReader reader, ConstantPool cp) {
-        // TODO
-        return null;
+        char attrNameIndex = reader.readUint16();
+        var attrName = cp.getUtf8(attrNameIndex);
+        int attrLen = reader.readUint32();
+        var attrInfo = newAttributeInfo(attrName, attrLen, cp);
+        attrInfo.readInfo(reader);
+        return attrInfo;
     }
 
     public static AttributeInfo newAttributeInfo(String attrName, int attrLen, ConstantPool cp) {
