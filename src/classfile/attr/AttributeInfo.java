@@ -1,6 +1,9 @@
 package classfile.attr;
 
 import classfile.ClassReader;
+import classfile.attr.code.CodeAttribute;
+import classfile.attr.linenumber.LineNumberTableAttribute;
+import classfile.attr.localvariable.LocalVariableTableAttribute;
 import classfile.cp.ConstantPool;
 
 public abstract class AttributeInfo {
@@ -26,7 +29,25 @@ public abstract class AttributeInfo {
     }
 
     public static AttributeInfo newAttributeInfo(String attrName, int attrLen, ConstantPool cp) {
-        // TODO
-        return null;
+        switch (attrName) {
+            case "Code":
+                return new CodeAttribute(cp);
+            case "ConstantValue":
+                return new ConstantValueAttribute();
+            case "Deprecated":
+                return new DeprecatedAttribute();
+            case "Exceptions":
+                return new ExceptionsAttribute();
+            case "LineNumberTable":
+                return new LineNumberTableAttribute();
+            case "LocalVariableTable":
+                return new LocalVariableTableAttribute();
+            case "SourceFile":
+                return new SourceFileAttribute(cp);
+            case "Synthetic":
+                return new SyntheticAttribute(cp);
+            default:
+                return new UnparsedAttribute(attrName, attrLen, new byte[0]);
+        }
     }
 }
