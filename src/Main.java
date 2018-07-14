@@ -23,7 +23,7 @@ public class Main {
         String className = cmd.clazz.replace(".", "/");
         var cf = loadClass(className, cp);
         System.out.println(cmd.clazz);
-        System.out.printf("class data:%s\n", Strings.join(classData));
+        printClassInfo(cf);
     }
 
     private static ClassFile loadClass(String className, Classpath cp) {
@@ -32,17 +32,17 @@ public class Main {
     }
 
     private static void printClassInfo(ClassFile cf) {
-        System.out.printf("version: %v.%v\n", cf.majorVersion(), cf.minorVersion());
-        System.out.printf("constants count: %v\n", cf.constantPool().len());
-        System.out.printf("access flags: 0x%x\n", cf.accessFlags());
-        System.out.printf("this class: %v\n", cf.className());
-        System.out.printf("super class: %v\n", cf.superClassName());
-        System.out.printf("interfaces: %v\n", cf.interfaceNames());
-        System.out.printf("fields count: %v\n", cf.fields().length);
+        System.out.printf("version: %d.%d\n", (int)cf.majorVersion(), (int)cf.minorVersion());
+        System.out.printf("constants count: %d\n", cf.constantPool().len());
+        System.out.printf("access flags: 0x%x\n", (int)cf.accessFlags());
+        System.out.printf("this class: %s\n", cf.className());
+        System.out.printf("super class: %s\n", cf.superClassName());
+        System.out.printf("interfaces: %s\n", Arrays.asList(cf.interfaceNames()));
+        System.out.printf("fields count: %d\n", cf.fields().length);
         for (var f : cf.fields()) {
             System.out.printf("  %s\n", f.name());
         }
-        System.out.printf("methods count: %v\n", cf.methods().length);
+        System.out.printf("methods count: %d\n", cf.methods().length);
         for (var m : cf.methods()) {
             System.out.printf("  %s\n", m.name());
         }

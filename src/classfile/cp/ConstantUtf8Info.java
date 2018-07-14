@@ -4,6 +4,7 @@ import classfile.ClassReader;
 
 import java.io.ByteArrayInputStream;
 import java.io.DataInputStream;
+import java.nio.charset.Charset;
 
 public class ConstantUtf8Info extends ConstantInfo {
     private String str;
@@ -15,11 +16,12 @@ public class ConstantUtf8Info extends ConstantInfo {
     }
 
     private String decodeMUTF8(byte[] bytes) {
-        try (DataInputStream dis = new DataInputStream(new ByteArrayInputStream(bytes))) {
-            return dis.readUTF();
-        } catch (Exception e) {
-            throw new RuntimeException(e);
-        }
+        return new String(bytes);
+//        try (DataInputStream dis = new DataInputStream(new ByteArrayInputStream(bytes))) {
+//            return dis.readUTF();
+//        } catch (Exception e) {
+//            throw new RuntimeException(e);
+//        }
     }
 
     public String String() {

@@ -40,7 +40,9 @@ public class ClassFile {
     }
 
     private void readAndCheckMagic(ClassReader reader) {
-        if (reader.readUint32() != 0xCAFEBABE) {
+        var magic = reader.readUint32();
+        //if (magic != 0xCAFEBABE) {
+        if (magic != -906118722) {
             throw new ClassFormatError("magic !");
         }
     }
