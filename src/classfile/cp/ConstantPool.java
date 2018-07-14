@@ -42,4 +42,8 @@ public class ConstantPool {
         var utf8Info = (ConstantUtf8Info) this.constants[index];
         return utf8Info.String();
     }
+
+    public int len() {
+        return this.constants.length;
+    }
 }

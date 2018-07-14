@@ -16,6 +16,9 @@ public class ClassFile {
     private MemberInfo[] methods;
     private AttributeInfo[] attributes;
 
+    private ClassFile() {
+    }
+
     public static ClassFile parser(byte[] classData) {
         var cr = new ClassReader(classData);
         var cf = new ClassFile();
@@ -86,17 +89,21 @@ public class ClassFile {
     }
 
     public String className() {
-        // TODO
-        return null;
+        return this.constantPool.getClassName(this.thisClass);
     }
 
     public String superClassName() {
-        // TODO
+        if (this.superClass > 0) {
+            return this.constantPool.getClassName(this.superClass);
+        }
         return null;
     }
 
     public String[] interfaceNames() {
-        // TODO
-        return null;
+        var interfaceNames = new String[this.interfaces.length];
+        for (int i = 0 ; i < interfaceNames.length; ++i) {
+            interfaceNames[i] = this.constantPool.getClassName(interfaces[i]);
+        }
+        return interfaceNames;
     }
 }
