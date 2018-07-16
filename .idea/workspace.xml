@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change beforePath="$PROJECT_DIR$/src/rtda/_LocalVars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rtda/_LocalVars.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rtda/_Slot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rtda/_Slot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rtda/_OperandStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rtda/_OperandStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,140 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClassReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/ClassReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="21" lean-forward="true" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-              <folding>
-                <element signature="e#134#135#0" expanded="true" />
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#429#430#0" expanded="true" />
-                <element signature="e#461#462#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Object.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rtda/_Object.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Thread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rtda/_Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
-              <folding>
-                <element signature="e#128#129#0" expanded="true" />
-                <element signature="e#153#154#0" expanded="true" />
-                <element signature="e#190#191#0" expanded="true" />
-                <element signature="e#218#219#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#431#432#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Stack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rtda/_Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_LocalVars.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/rtda/_LocalVars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-              <folding>
-                <element signature="e#298#299#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#471#472#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1203#1204#0" expanded="true" />
-                <element signature="e#1284#1285#0" expanded="true" />
-                <element signature="e#1331#1332#0" expanded="true" />
-                <element signature="e#1397#1398#0" expanded="true" />
-                <element signature="e#1440#1441#0" expanded="true" />
-                <element signature="e#1484#1485#0" expanded="true" />
-                <element signature="e#1505#1506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Slot.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rtda/_Slot.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_OperandStack.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_OperandStack.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_Frame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rtda/_Frame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstantInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/cp/ConstantInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state relative-caret-position="469">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConstantMethodHandleInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/classfile/cp/invokedynamic/ConstantMethodHandleInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#528#529#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
+                <element signature="e#1046#1047#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1189#1190#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,11 +105,11 @@
         <option value="$PROJECT_DIR$/src/rtda/Object.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Object.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Stack.java" />
-        <option value="$PROJECT_DIR$/src/rtda/_OperandStack.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Frame.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Thread.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Slot.java" />
         <option value="$PROJECT_DIR$/src/rtda/_LocalVars.java" />
+        <option value="$PROJECT_DIR$/src/rtda/_OperandStack.java" />
       </list>
     </option>
   </component>
@@ -1001,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rtda/_Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1027,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rtda/_LocalVars.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        <state relative-caret-position="75">
+          <caret line="5" column="38" lean-forward="true" selection-start-line="5" selection-start-column="38" selection-end-line="9" selection-end-column="9" />
           <folding>
             <element signature="e#298#299#0" expanded="true" />
             <element signature="e#330#331#0" expanded="true" />
@@ -1046,6 +918,23 @@
             <element signature="e#1440#1441#0" expanded="true" />
             <element signature="e#1484#1485#0" expanded="true" />
             <element signature="e#1505#1506#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="e#528#529#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+            <element signature="e#1046#1047#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1189#1190#0" expanded="true" />
           </folding>
         </state>
       </provider>
