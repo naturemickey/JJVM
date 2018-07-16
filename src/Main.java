@@ -7,6 +7,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args) throws Exception {
+        //args = new String[]{"-cp", "/Users/089239/git/JJVM", "jvmgo.book.ch03.ClassFileTest"};
+        args = new String[]{"-Xjre", "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre", "java.lang.String"};
         var cmd = Cmd.parseCmd(args);
 
         if (cmd.versionFlag) {

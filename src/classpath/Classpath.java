@@ -57,8 +57,8 @@ public class Classpath {
         if (exists("./jre")) {
             return "./jre";
         }
-        // String javaHome = System.getProperty("java.home");
-        String javaHome = "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home";
+        String javaHome = System.getProperty("java.home");
+        // String javaHome = "/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home";
         if (javaHome != null && javaHome.length() > 0) {
             return FilePath.join(javaHome, "jre");
             // return javaHome;

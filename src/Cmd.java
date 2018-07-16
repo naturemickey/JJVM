@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Cmd {
     public boolean helpFlag;
     public boolean versionFlag;
@@ -9,6 +11,8 @@ public class Cmd {
     public static Cmd parseCmd(String[] args) {
         var cmd = new Cmd();
 
+        var argList = new ArrayList<String>();
+
         for (int i = 0; i < args.length; ++i) {
             var arg = args[i];
             if (arg.equals("-help") || arg.equals("-?")) {
@@ -19,13 +23,15 @@ public class Cmd {
                 cmd.cpOption = args[++i];
             } else if (arg.equals("-Xjre")) {
                 cmd.XjreOption = args[++i];
+            } else {
+                argList.add(arg);
             }
         }
 
-        if (args.length > 0) {
-            cmd.clazz = args[0];
-            cmd.args = new String[args.length - 1];
-            for (int i = 1; i < args.length; ++i) {
+        if (argList.size() > 0) {
+            cmd.clazz = argList.get(0);
+            cmd.args = new String[argList.size() - 1];
+            for (int i = 1; i < argList.size(); ++i) {
                 cmd.args[i - 1] = args[i];
             }
         }

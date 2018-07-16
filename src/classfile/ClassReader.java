@@ -47,7 +47,9 @@ public class ClassReader {
         long res = 0;
         while (--count >= 0) {
             res <<= 8;
-            res += data[idx++];
+            long b = data[idx++];
+            b &= 0xFF;
+            res |= b;
         }
         return res;
     }
