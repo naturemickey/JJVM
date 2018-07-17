@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change beforePath="$PROJECT_DIR$/src/rtda/_OperandStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rtda/_OperandStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rtda/_Frame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/rtda/_Frame.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_OperandStack.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_OperandStack.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            <state relative-caret-position="30">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
               <folding>
                 <element signature="e#528#529#0" expanded="true" />
                 <element signature="e#582#583#0" expanded="true" />
@@ -28,6 +28,21 @@
                 <element signature="e#1077#1078#0" expanded="true" />
                 <element signature="e#1142#1143#0" expanded="true" />
                 <element signature="e#1189#1190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_Frame.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/rtda/_Frame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+              <folding>
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,11 +120,11 @@
         <option value="$PROJECT_DIR$/src/rtda/Object.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Object.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Stack.java" />
-        <option value="$PROJECT_DIR$/src/rtda/_Frame.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Thread.java" />
         <option value="$PROJECT_DIR$/src/rtda/_Slot.java" />
         <option value="$PROJECT_DIR$/src/rtda/_LocalVars.java" />
         <option value="$PROJECT_DIR$/src/rtda/_OperandStack.java" />
+        <option value="$PROJECT_DIR$/src/rtda/_Frame.java" />
       </list>
     </option>
   </component>
@@ -873,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rtda/_Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rtda/_Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -924,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="26" />
           <folding>
             <element signature="e#528#529#0" expanded="true" />
             <element signature="e#582#583#0" expanded="true" />
@@ -935,6 +943,19 @@
             <element signature="e#1077#1078#0" expanded="true" />
             <element signature="e#1142#1143#0" expanded="true" />
             <element signature="e#1189#1190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rtda/_Frame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+          <folding>
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
           </folding>
         </state>
       </provider>
