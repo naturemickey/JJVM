@@ -2,11 +2,13 @@ package instructions.base.inst;
 
 import instructions.base.BytecodeReader;
 import instructions.base.Instruction;
-import rtda._Frame;
 
-public class NoOperandsInstruction implements Instruction {
+public class BranchInstruction implements Instruction {
+
+    private int offset;
+
     @Override
     public void fetchOperands(BytecodeReader reader) {
-        // nothing to do
+        this.offset = reader.readInt16();
     }
 }

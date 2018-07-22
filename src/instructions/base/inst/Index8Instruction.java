@@ -2,11 +2,12 @@ package instructions.base.inst;
 
 import instructions.base.BytecodeReader;
 import instructions.base.Instruction;
-import rtda._Frame;
 
-public class NoOperandsInstruction implements Instruction {
+public class Index8Instruction implements Instruction {
+
+    private int index;
     @Override
     public void fetchOperands(BytecodeReader reader) {
-        // nothing to do
+        index = ((int)reader.readUint8()) & 0xff;
     }
 }
