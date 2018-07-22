@@ -3,7 +3,7 @@ package instructions.base.inst;
 import instructions.base.BytecodeReader;
 import instructions.base.Instruction;
 
-public class Index8Instruction implements Instruction {
+public abstract class Index8Instruction implements Instruction {
 
     private int index;
     @Override

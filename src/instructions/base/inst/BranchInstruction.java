@@ -3,7 +3,7 @@ package instructions.base.inst;
 import instructions.base.BytecodeReader;
 import instructions.base.Instruction;
 
-public class BranchInstruction implements Instruction {
+public abstract class BranchInstruction implements Instruction {
 
     private int offset;
 

@@ -6,7 +6,6 @@ public interface Instruction {
 
     void fetchOperands(BytecodeReader reader);
 
-    default void execute(_Frame frame) {
-    }
+    void execute(_Frame frame);
 
 }

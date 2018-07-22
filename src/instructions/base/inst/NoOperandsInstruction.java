@@ -4,7 +4,7 @@ import instructions.base.BytecodeReader;
 import instructions.base.Instruction;
 import rtda._Frame;
 
-public class NoOperandsInstruction implements Instruction {
+public abstract class NoOperandsInstruction implements Instruction {
     @Override
     public void fetchOperands(BytecodeReader reader) {
         // nothing to do
