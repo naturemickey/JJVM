@@ -1,4 +1,4 @@
-package instructions.constants;
+package instructions.constants.const_;
 
 import instructions.base.inst.NoOperandsInstruction;
 import rtda._Frame;

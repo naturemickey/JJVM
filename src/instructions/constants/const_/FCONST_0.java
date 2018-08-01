@@ -1,11 +1,11 @@
-package instructions.constants;
+package instructions.constants.const_;
 
 import instructions.base.inst.NoOperandsInstruction;
 import rtda._Frame;
 
-public class ICONST_M1 extends NoOperandsInstruction {
+public class FCONST_0 extends NoOperandsInstruction {
     @Override
     public void execute(_Frame frame) {
-        frame.operandStack().pushInt(-1);
+        frame.operandStack().pushFloat(0f);
     }
 }
