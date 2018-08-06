@@ -61,4 +61,14 @@ public class _OperandStack {
         this.slots[size].ref = null;
         return ref;
     }
+
+    public void pushSlot(_Slot slot) {
+        this.slots[this.size] = slot;
+        this.size += 1;
+    }
+
+    public _Slot popSlot() {
+        this.size -= 1;
+        return this.slots[this.size]; // 内存泄漏
+    }
 }
