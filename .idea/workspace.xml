@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change afterPath="$PROJECT_DIR$/src/instructions/stack/swap/SWAP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/DREM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/FREM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/IREM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/LREM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,53 +18,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="_OperandStack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
-              <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="POP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/stack/pop/POP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
-                <element signature="e#224#225#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="POP2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/stack/pop/POP2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DUP.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/stack/dup/DUP.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DUP_X1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/instructions/stack/dup/DUP_X1.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SWAP.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SWAP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/instructions/stack/swap/SWAP.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
@@ -118,6 +74,45 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DREM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/DREM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FREM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/FREM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IREM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/IREM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LREM.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/LREM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -149,6 +144,7 @@
     <findStrings>
       <find>mutf8</find>
       <find>fmt.Printf</find>
+      <find>Int</find>
     </findStrings>
     <replaceStrings>
       <replace>System.out.printf</replace>
@@ -160,10 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/rtda/_Thread.java" />
-        <option value="$PROJECT_DIR$/src/rtda/_Slot.java" />
-        <option value="$PROJECT_DIR$/src/rtda/_LocalVars.java" />
-        <option value="$PROJECT_DIR$/src/rtda/_Frame.java" />
         <option value="$PROJECT_DIR$/src/instructions/base/BytecodeReader.java" />
         <option value="$PROJECT_DIR$/src/instructions/base/Instruction.java" />
         <option value="$PROJECT_DIR$/src/instructions/base/inst/BranchInstruction.java" />
@@ -211,6 +203,10 @@
         <option value="$PROJECT_DIR$/src/instructions/stack/dup/DUP2_X1.java" />
         <option value="$PROJECT_DIR$/src/instructions/stack/dup/DUP2_X2.java" />
         <option value="$PROJECT_DIR$/src/instructions/stack/swap/SWAP.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/DREM.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/FREM.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/IREM.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/LREM.java" />
       </list>
     </option>
   </component>
@@ -254,31 +250,7 @@
               <item name="JJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="dup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="pop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="stack" type="462c0819:PsiDirectoryNode" />
-              <item name="swap" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
@@ -321,6 +293,7 @@
       <recent name="instructions.loads" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="instructions.math" />
       <recent name="instructions.stores.lstore" />
       <recent name="instructions.constants" />
     </key>
@@ -570,43 +543,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/rtda/_LocalVars.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rtda/_Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rtda/_Slot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rtda/_Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/rtda/_Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1039,6 +975,37 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/DREM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/FREM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/IREM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/LREM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
