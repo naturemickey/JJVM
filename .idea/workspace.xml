@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/instructions/stores/StoresUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instructions/stores/StoresUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,51 +19,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="L2D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="L2F.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2F.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="L2I.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2I.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoresUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/stores/StoresUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ASTORE.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,7 +65,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ASTORE_3.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ASTORE_3.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
@@ -120,16 +74,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LSTORE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE.java">
+      <file leaf-file-name="DSTORE.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSTORE_0.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSTORE_1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSTORE_2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DSTORE_3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -164,11 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_0.java" />
-        <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_1.java" />
-        <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_2.java" />
-        <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_3.java" />
-        <option value="$PROJECT_DIR$/src/rtda/_OperandStack.java" />
         <option value="$PROJECT_DIR$/src/instructions/stack/POP.java" />
         <option value="$PROJECT_DIR$/src/instructions/stack/POP2.java" />
         <option value="$PROJECT_DIR$/src/instructions/stack/pop/POP2.java" />
@@ -215,6 +198,11 @@
         <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_1.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_2.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_0.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_1.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_2.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_3.java" />
       </list>
     </option>
   </component>
@@ -281,6 +269,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
               <item name="stores" type="462c0819:PsiDirectoryNode" />
+              <item name="dstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="instructions" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
               <item name="lstore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,11 +313,11 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="instructions.stores.dstore" />
       <recent name="instructions.stores.astore" />
       <recent name="instructions.math.sh" />
       <recent name="instructions.math" />
       <recent name="instructions.stores.lstore" />
-      <recent name="instructions.constants" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -569,41 +565,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stack/pop/POP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/instructions/stack/pop/POP2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1006,6 +967,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/dstore/DSTORE_3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
