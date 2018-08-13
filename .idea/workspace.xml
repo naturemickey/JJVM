@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/d2x/D2F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/d2x/D2I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/d2x/D2L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/f2x/F2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/f2x/F2I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/f2x/F2L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/i2x/I2B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/i2x/I2C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/i2x/I2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/i2x/I2F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/i2x/I2L.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/i2x/I2S.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/l2x/L2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/l2x/L2F.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/conversions/l2x/L2I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/instructions/stores/StoresUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/instructions/stores/StoresUtils.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,90 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="F2L.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/f2x/F2L.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="I2B.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2B.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="I2C.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2C.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="I2S.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2S.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="I2L.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2L.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="I2F.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2F.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="I2D.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2D.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="L2D.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2D.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,13 +44,91 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="L2I.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="L2I.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2I.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StoresUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/StoresUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASTORE.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#273#274#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASTORE_0.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_0.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASTORE_1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASTORE_2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ASTORE_3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LSTORE.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -179,12 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_0.java" />
-        <option value="$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_1.java" />
-        <option value="$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_2.java" />
-        <option value="$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_3.java" />
-        <option value="$PROJECT_DIR$/src/instructions/stores/StoresUtils.java" />
-        <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_0.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_1.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_2.java" />
@@ -230,6 +209,12 @@
         <option value="$PROJECT_DIR$/src/instructions/conversions/l2x/L2D.java" />
         <option value="$PROJECT_DIR$/src/instructions/conversions/l2x/L2F.java" />
         <option value="$PROJECT_DIR$/src/instructions/conversions/l2x/L2I.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/StoresUtils.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_0.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_1.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_2.java" />
+        <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java" />
       </list>
     </option>
   </component>
@@ -273,54 +258,7 @@
               <item name="JJVM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="conversions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="conversions" type="462c0819:PsiDirectoryNode" />
-              <item name="d2x" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="conversions" type="462c0819:PsiDirectoryNode" />
-              <item name="f2x" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="conversions" type="462c0819:PsiDirectoryNode" />
-              <item name="i2x" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="conversions" type="462c0819:PsiDirectoryNode" />
-              <item name="l2x" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="iinc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
@@ -328,6 +266,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
               <item name="stores" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="instructions" type="462c0819:PsiDirectoryNode" />
+              <item name="stores" type="462c0819:PsiDirectoryNode" />
+              <item name="astore" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
@@ -371,6 +317,7 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="instructions.stores.astore" />
       <recent name="instructions.math.sh" />
       <recent name="instructions.math" />
       <recent name="instructions.stores.lstore" />
@@ -622,55 +569,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/instructions/loads/iload/ILOAD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_0.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/loads/iload/ILOAD_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/StoresUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE_0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -696,13 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="69" column="24" selection-start-line="69" selection-start-column="24" selection-end-line="69" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -766,6 +657,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -773,6 +667,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,11 +933,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2I.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/StoresUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/lstore/LSTORE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_0.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
         </state>
       </provider>
     </entry>
