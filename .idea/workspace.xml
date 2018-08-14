@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change afterPath="$PROJECT_DIR$/src/instructions/math/mul/DMUL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/math/mul/FMUL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/math/mul/IMUL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/math/mul/LMUL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/neg/DNEG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/neg/FNEG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/neg/INEG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/neg/LNEG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/or/IOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/or/LOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/sub/DSUB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/sub/FSUB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/sub/ISUB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/sub/LSUB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/xor/IXOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/math/xor/LXOR.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,20 +26,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DADD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/add/DADD.java">
+      <file leaf-file-name="INEG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/neg/INEG.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DMUL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/mul/DMUL.java">
+      <file leaf-file-name="LNEG.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/neg/LNEG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/or/IOR.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
@@ -39,44 +53,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FMUL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/mul/FMUL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IMUL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/mul/IMUL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LMUL.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/mul/LMUL.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LADD.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/add/LADD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DDIV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/div/DDIV.java">
+      <file leaf-file-name="LOR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/or/LOR.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
@@ -84,29 +62,56 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FDIV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/div/FDIV.java">
+      <file leaf-file-name="DSUB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/DSUB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IDIV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/div/IDIV.java">
+      <file leaf-file-name="FSUB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/FSUB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="150">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LDIV.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/math/div/LDIV.java">
+      <file leaf-file-name="ISUB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/ISUB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="150">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LSUB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/LSUB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IXOR.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/xor/IXOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LXOR.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/instructions/math/xor/LXOR.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -141,18 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/instructions/conversions/f2x/F2D.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/f2x/F2I.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/f2x/F2L.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/i2x/I2B.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/i2x/I2CTest.groovy" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/i2x/I2C.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/i2x/I2S.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/i2x/I2L.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/i2x/I2F.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/i2x/I2D.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/l2x/L2D.java" />
-        <option value="$PROJECT_DIR$/src/instructions/conversions/l2x/L2F.java" />
         <option value="$PROJECT_DIR$/src/instructions/conversions/l2x/L2I.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/StoresUtils.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java" />
@@ -192,6 +185,18 @@
         <option value="$PROJECT_DIR$/src/instructions/math/mul/FMUL.java" />
         <option value="$PROJECT_DIR$/src/instructions/math/mul/IMUL.java" />
         <option value="$PROJECT_DIR$/src/instructions/math/mul/LMUL.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/neg/DNEG.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/neg/FNEG.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/neg/INEG.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/neg/LNEG.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/or/IOR.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/or/LOR.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/sub/DSUB.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/sub/FSUB.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/sub/ISUB.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/sub/LSUB.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/xor/IXOR.java" />
+        <option value="$PROJECT_DIR$/src/instructions/math/xor/LXOR.java" />
       </list>
     </option>
   </component>
@@ -289,7 +294,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="add" type="462c0819:PsiDirectoryNode" />
+              <item name="sub" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
@@ -297,15 +302,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
               <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="div" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="instructions" type="462c0819:PsiDirectoryNode" />
-              <item name="math" type="462c0819:PsiDirectoryNode" />
-              <item name="mul" type="462c0819:PsiDirectoryNode" />
+              <item name="xor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
@@ -355,11 +352,11 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="instructions.math.xor" />
+      <recent name="instructions.math.sub" />
+      <recent name="instructions.math.or" />
+      <recent name="instructions.math.neg" />
       <recent name="instructions.math.mul" />
-      <recent name="instructions.math.div" />
-      <recent name="instructions.math.add" />
-      <recent name="instructions.stores.istore" />
-      <recent name="instructions.stores.fstore" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -607,113 +604,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2B.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2CTest.groovy">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2C.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2S.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2L.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2F.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/i2x/I2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2F.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/conversions/l2x/L2I.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/rtda/_OperandStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="57" column="19" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/StoresUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/instructions/stores/astore/ASTORE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1026,6 +916,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/neg/DNEG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/neg/FNEG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/neg/INEG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/neg/LNEG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/or/IOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/or/LOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/DSUB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/FSUB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/ISUB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/sub/LSUB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/xor/IXOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/math/xor/LXOR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
