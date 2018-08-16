@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="162c8294-a964-43f9-88eb-2a5d69caf38f" name="Default" comment="add Classpath.java">
-      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPEQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPGE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPGT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPLE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPLT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPNE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPEQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPNE.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IF_ICMPGE.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IF_ICMPGE.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPGE.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -102,20 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IFGT.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/comparisons/ifcond/IFGT.java">
+      <file leaf-file-name="IF_ACMPEQ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPEQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="240">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IFGE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/instructions/comparisons/ifcond/IFGE.java">
+      <file leaf-file-name="IF_ACMPNE.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPNE.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="165">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -150,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/instructions/stores/fstore/FSTORE_1.java" />
-        <option value="$PROJECT_DIR$/src/instructions/stores/fstore/FSTORE_2.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/fstore/FSTORE_3.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/istore/ISTORE.java" />
         <option value="$PROJECT_DIR$/src/instructions/stores/istore/ISTORE_0.java" />
@@ -201,6 +194,8 @@
         <option value="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPLE.java" />
         <option value="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPGT.java" />
         <option value="$PROJECT_DIR$/src/instructions/comparisons/if_icmp/IF_ICMPGE.java" />
+        <option value="$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPEQ.java" />
+        <option value="$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPNE.java" />
       </list>
     </option>
   </component>
@@ -283,6 +278,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="instructions" type="462c0819:PsiDirectoryNode" />
               <item name="comparisons" type="462c0819:PsiDirectoryNode" />
+              <item name="if_acmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JJVM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JJVM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="instructions" type="462c0819:PsiDirectoryNode" />
+              <item name="comparisons" type="462c0819:PsiDirectoryNode" />
               <item name="if_icmp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -335,11 +338,11 @@
       <recent name="groovy.util.GroovyTestCase" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="instructions.comparisons.if_acmp" />
       <recent name="instructions.comparisons.if_icmp" />
       <recent name="instructions.comparisons.ifcond" />
       <recent name="instructions.math.xor" />
       <recent name="instructions.math.sub" />
-      <recent name="instructions.math.or" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -587,20 +590,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/fstore/FSTORE_3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/instructions/stores/fstore/FSTORE.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/instructions/stores/istore/ISTORE.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -986,6 +975,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPEQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/instructions/comparisons/if_acmp/IF_ACMPNE.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
         </state>
       </provider>
     </entry>
