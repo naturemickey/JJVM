@@ -3,6 +3,7 @@ package instructions.comparisons.if_acmp;
 import instructions.base.inst.BranchInstruction;
 import rtda._Frame;
 
+import static instructions.base.BranchUtils.*;
 public class IF_ACMPEQ extends BranchInstruction {
     @Override
     public void execute(_Frame frame) {

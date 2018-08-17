@@ -1,5 +1,6 @@
 package instructions.comparisons.if_icmp;
 
+import static instructions.base.BranchUtils.*;
 import instructions.base.inst.BranchInstruction;
 import rtda._Frame;
 

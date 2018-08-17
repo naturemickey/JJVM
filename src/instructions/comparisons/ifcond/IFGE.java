@@ -2,6 +2,7 @@ package instructions.comparisons.ifcond;
 
 import instructions.base.inst.BranchInstruction;
 import rtda._Frame;
+import static instructions.base.BranchUtils.*;
 
 public class IFGE extends BranchInstruction {
     @Override

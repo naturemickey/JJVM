@@ -13,9 +13,4 @@ public abstract class BranchInstruction implements Instruction {
         this.offset = reader.readInt16();
     }
 
-    public static void branch(_Frame frame, int offset) {
-        var pc = frame.thread().pc();
-        var nextPC = pc + offset;
-        frame.setNextPC(nextPC);
-    }
 }

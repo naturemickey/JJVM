@@ -3,6 +3,8 @@ package instructions.comparisons.if_icmp;
 import instructions.base.inst.BranchInstruction;
 import rtda._Frame;
 
+import static instructions.base.BranchUtils.*;
+
 public class IF_ICMPGT extends BranchInstruction {
     @Override
     public void execute(_Frame frame) {
